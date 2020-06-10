@@ -59,20 +59,31 @@
    margin-bottom: 30px;
    background-color: rgb(88, 88, 88);
 }
-.modal-close{
+.modal-close {
    cursor: pointer;
    color: #fff;
 }
-.modal-title{
+.modal-title {
    font-size: 1.2em;
    color: #fff;
 }
-.modal-body{
+.modal-body {
    padding: 20px;
 }
-.modal-footer{
+.modal-footer {
    padding: 5px 10px;
    border-top: 1px solid rgb(136, 136, 136);
    display: flex;
    justify-content: space-between;
+}
+.div-Form {
+   display: flex;
+   justify-content: space-between;
+}
+.button-Form {
+   margin-top: 20px;
+   justify-content: center;
+   align-content: center;
+   width: 100%;
+   height: 40px;
 }

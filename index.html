@@ -5,6 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>modalWindow</title>
    <link rel="stylesheet" href="style.css">
+   <meta http-equiv="Cache-Control" content="private">
 </head>
 <body>
    
@@ -24,9 +25,23 @@
                <span class="modal-close">&times;</span>
             </div>
             <div class="modal-body">
-               <p>Lorem ipsum dolor sit.</p>
-               <p>Lorem ipsum dolor sit.</p>
-               <p>Lorem ipsum dolor sit.</p>              
+               <form action="#" class="form">
+                  <div class="div-Form">
+                     <span>Введите ваше имя: </span>
+                     <input name="firstName" type="text" class="inputPhone">
+                  </div>
+                  <br/>
+                  <div class="div-Form">
+                     <span>Введите вашу фамилию: </span>
+                     <input name="secondName" type="text" class="inputPhone">
+                  </div>
+                  <br/>
+                  <div class="div-Form">
+                     <span>Введите ваш телефон: </span>
+                     <input name="phone" type="text" class="inputPhone">
+                  </div>
+                  <button class="button-Form">Отправить</button>
+               </form>                            
             </div>
             <div class="modal-footer">
                <button>Ok</button>
@@ -40,5 +55,6 @@
 
 
    <script src="script.js"></script>
+   <script src="jsonForm.js"></script>
 </body>
 </html>
